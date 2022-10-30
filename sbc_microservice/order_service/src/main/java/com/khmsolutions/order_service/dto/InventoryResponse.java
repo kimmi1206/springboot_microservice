@@ -1,4 +1,4 @@
-package com.khmsolutions.inventory_service.dto;
+package com.khmsolutions.order_service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

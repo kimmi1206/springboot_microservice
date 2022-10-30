@@ -1,8 +1,25 @@
 spring:
+  application:
+    name: product-service
   data:
     mongodb:
       uri: mongodb+srv://necl0usr2:necl0usr2@nodeexpresscluster0.rbtfu.mongodb.net/?retryWrites=true&w=majority
       database: springboot
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1.0
+
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://eureka:password@localhost:8761/eureka
+  instance:
+    hostname: localhost
 
 #three hyphen/dash '---'  start a new document
 #---
