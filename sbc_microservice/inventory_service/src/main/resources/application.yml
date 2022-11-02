@@ -3,8 +3,8 @@ spring:
     name: inventory-service
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/inventory-service
-    username: root
-    password: mysql
+    username: user
+    password: user
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
