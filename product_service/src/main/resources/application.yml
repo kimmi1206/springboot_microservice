@@ -1,8 +1,8 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://necl0usr2:necl0usr2@nodeexpresscluster0.rbtfu.mongodb.net/?retryWrites=true&w=majority
-      database: springboot
+      uri: mongodb+srv://user:pass@cluster.mongodb.net/?retryWrites=true&w=majority
+      database: databasename
 
 #three hyphen/dash '---'  start a new document
 #---
